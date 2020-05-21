@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Image from './assets/cadu.jpg';
+import TechList from './components/TechList';
 
 function App() {
-  return  <img src={Image} width="200px"/>
+  return  <TechList />
 }
 
 export default App;
