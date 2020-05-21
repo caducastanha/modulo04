@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
+import Image from './assets/cadu.jpg';
 
-function App(){
-  return <h1>Hello Cadu</h1>;
+function App() {
+  return  <img src={Image} width="200px"/>
 }
 
 export default App;
